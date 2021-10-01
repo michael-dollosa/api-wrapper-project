@@ -75,7 +75,7 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
-    challonge_user_rails (0.1.2)
+    challonge_user_rails (0.1.4)
       faraday (~> 1.7)
       faraday_middleware (~> 1.1)
     childprocess (3.0.0)
@@ -130,6 +130,7 @@ GEM
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
+    pg (1.2.3)
     public_suffix (4.0.6)
     puma (5.5.0)
       nio4r (~> 2.0)
@@ -251,9 +252,10 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
-  challonge_user_rails (~> 0.1.2)
+  challonge_user_rails (~> 0.1.4)
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  pg
   puma (~> 5.0)
   rack-cors
   rack-mini-profiler (~> 2.0)
@@ -262,7 +264,7 @@ DEPENDENCIES
   sass-rails (>= 6)
   selenium-webdriver
   spring
-  sqlite3 (~> 1.4)
+  sqlite3
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
