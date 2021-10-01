@@ -48,3 +48,12 @@ GET - Get Tournament Matches - {url prefix}/api/tournaments/:tournament_url/matc
 GET - Get Specific Tournament Match - {url prefix}/api/tournaments/:tournament_url/matches/:match_id
 ```
 
+
+| METHOD  | DESCRIPTION  | ENDPOINT |
+| :------------ |:--------------- | :----- |
+| GET | Get All Tournaments | {url prefix}/api/tournaments |
+| POST | Create Tournament | {url prefix}/api/tournaments |
+| GET | Get Specific Tournament | {url prefix}/api/tournaments/:tournament_url |
+| DELETE | Delete Tournament | {url prefix}/api/tournaments/:tournament_url |
+| GET | Get Tournament Matches | {url prefix}/api/tournaments/:tournament_url/matches |
+| GET | Get Specific Tournament Match | {url prefix}/api/tournaments/:tournament_url/matches/:match_id |
