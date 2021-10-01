@@ -8,7 +8,7 @@ describe "Get all Tournament", type: :request do
 end
 
 describe "Get specific Tournament", type: :request do
-  before {get '/api/tournament/d70anxa6'}
+  before {get '/api/tournaments/d70anxa6'}
   it "Returns api response" do
     expect((response.body)).not_to be_empty
   end
@@ -75,7 +75,7 @@ describe "Create specific Tournament", type: :request do
 end
 
 describe "Delete specific Tournament", type: :request do
-  before {delete '/api/tournament/d70anxa6'}
+  before {delete '/api/tournaments/d70anxa6'}
   it "Returns api response" do
     expect((response.body)).not_to be_empty
   end
