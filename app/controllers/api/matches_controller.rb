@@ -10,11 +10,5 @@ module Api
       match = client_instance.match(params[:tournament_url], params[:match_id])
       render json: match
     end
-
-    private
-
-    def client_instance
-      ChallongeUserRails::Client.new(api_key: "Bu1jqfn2whgYiS2uOeD4iiTf25P2amiyuxLhHMKZ")
-    end
   end
 end
