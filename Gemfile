@@ -29,12 +29,13 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 #install ruby gem api wrapper
-gem 'challonge_user_rails', '~> 0.1.1'
+gem 'challonge_user_rails', '~> 0.1.2'
 
 gem 'rack-cors'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails', '~> 5.0', '>= 5.0.2'
 end
 
 group :development do
