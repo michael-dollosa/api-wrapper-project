@@ -1,7 +1,7 @@
-# Sample Application to test Challonge API Wrapperfor user
+# Sample Application to test Challonge API Wrapper for user
 
+This project is intended for educational purposes.
 You may check the gem repo [here](https://github.com/michael-dollosa/challonge-user-rails)
-
 
 ## Configuration
 
