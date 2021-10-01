@@ -39,12 +39,11 @@ You can run tests using postman (provided rails server is on).
 ### Routes
 As of this moment, these are the available routes to test the API
 
-```
-GET - Get All Tournaments - {url prefix}/api/tournaments
-GET - Get Specific Tournament - {url prefix}/api/tournament/:tournament_url
-POST - Create Tournament - {url prefix}/api/tournaments
-DELETE - Delete Tournament - {url prefix}/api/tournament/:tournament_url
-GET - Get Tournament Matches - {url prefix}/api/tournament/:tournament_url/matches
-GET - Get Specific Tournament Match - {url prefix}/api/tournament/:tournament_url/matches:match_id
-```
-
+| METHOD  | DESCRIPTION  | ENDPOINT |
+| :------------ |:--------------- | :----- |
+| GET | Get All Tournaments | {url prefix}/api/tournaments |
+| POST | Create Tournament | {url prefix}/api/tournaments |
+| GET | Get Specific Tournament | {url prefix}/api/tournaments/:tournament_url |
+| DELETE | Delete Tournament | {url prefix}/api/tournaments/:tournament_url |
+| GET | Get Tournament Matches | {url prefix}/api/tournaments/:tournament_url/matches |
+| GET | Get Specific Tournament Match | {url prefix}/api/tournaments/:tournament_url/matches/:match_id |
