@@ -26,7 +26,7 @@ Create an account on [Challonge Website](https://challonge.com) and get an API v
 
 ### Configure
 It is suggested to create an instance of the client.
-In this project repo, client was set inside the application controller. Just set your API key given by the Challonge site.
+In this project repo, client was set inside the application controller. Just set your API key given by the Challonge site. You may visit Rails [docs](https://guides.rubyonrails.org/security.html#custom-credentials) for setting up your API key under credentials.yml.
 
 ```ruby
 client = ChallongeUserRails::Client.new(api_key: [YOUR API KEY])
